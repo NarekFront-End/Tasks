@@ -1,1 +1,16 @@
-
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+}
+button{
+    padding: 10px;
+    font-size: 18px;
+    width: 95px;
+    cursor: pointer;
+}
