@@ -1,1 +1,19 @@
-
+*{
+    padding: 0;
+    margin: 0;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+#btn{
+    margin-left: 20px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.paragrap{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
