@@ -1,1 +1,26 @@
-
+*{
+    padding: 0;
+    margin: 0;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+button{
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    
+}
+#btn1{
+    background-color: blue;
+}
+#btn2{
+    background-color: red;
+}
+#btn3{
+    background-color: green;
+}
