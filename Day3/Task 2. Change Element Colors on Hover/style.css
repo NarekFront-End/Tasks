@@ -1,1 +1,7 @@
-
+ul li {
+    margin-top: 15px;
+    color: blueviolet;
+}
+ul li:hover{
+    color:burlywood;
+}
