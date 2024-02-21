@@ -1,1 +1,23 @@
-
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+}
+#showHideDiv{
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    margin-top: 20px;
+    display: none;
+}
+button{
+    padding: 10px;
+    font-size: 18px;
+    width: 70px;
+    cursor: pointer;
+}
