@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form{
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    font-size: 20px;
+}
+button{
+    cursor: pointer;
+    font-size: 20px;
+}
+.books{
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.book{
+    width: 420px;
+    height: 150px;
+    background-color: aqua;
+    margin-top: 25px;
+}
+span,p{
+    font-size: 25px;
+}

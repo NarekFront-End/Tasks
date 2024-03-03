@@ -1,1 +1,18 @@
-
+.elemBlock img {
+    width: 300px;
+  }
+  .elemBlock {
+    width: 300px;
+    text-align: center;
+    margin: 20px;
+  }
+  .block {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin-left: 10%;
+  }
+  #addElem {
+    width: 60px;
+    height: 40px;
+  }
