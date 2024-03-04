@@ -29,7 +29,6 @@ const showProducts = function(products) {
         p.textContent = `${key}: ${product[key]}`;
         div.appendChild(p);
       }
-  
       form.appendChild(div);
     }
   }
@@ -54,4 +53,4 @@ const showProducts = function(products) {
   ecoFriendlyCheckbox.addEventListener("change", selectCategoryAndTags);
   newCheckbox.addEventListener("change", selectCategoryAndTags);
   saleCheckbox.addEventListener("change", selectCategoryAndTags);
-    window.addEventListener("load", () => showProducts(products));
+  window.addEventListener("load", () => showProducts(products));
